@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: orange;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 72px;
+}
+
+p {
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: goldenrod !important;
+}
+
+.home {
+    color: red;
+}
+
+#home {
+    color: green;
+}
+
+button {
+    color: rgba(255, 255, 240, 0.5);
+    background-color: red;
+    padding: 50px;
+    margin: 20px;
+    border-color: blue;
+}
