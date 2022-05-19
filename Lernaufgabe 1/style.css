@@ -1,0 +1,11 @@
+body {}
+
+.list-sauce {}
+
+.list-sauce-row {
+    border-bottom: 10px solid black;
+}
+
+.list-sauce-cell {
+    width: 90px;
+}
