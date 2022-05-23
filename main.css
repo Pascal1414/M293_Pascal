@@ -1,0 +1,21 @@
+.deactivated {
+    color: lightgray;
+}
+
+.deactivated:hover {
+    cursor: default;
+}
+
+a {
+    font-size: x-large !important;
+}
+
+.deactivated-done {
+    color: red;
+    text-decoration: underline;
+    cursor: default;
+}
+
+cite {
+    font-style: normal;
+}
