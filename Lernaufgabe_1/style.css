@@ -1,4 +1,6 @@
-.list-sauce {}
+.list-sauce {
+    font-size: large;
+}
 
 .list-sauce-row {
     border-bottom: 10px solid black;
@@ -10,16 +12,18 @@
 
 .content {
     border-radius: 10px;
-    width: 70%;
+    width: 67%;
     background-color: white;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 body {
     background-image: url(Basilikum_bearb.jpg);
     display: flex;
     justify-content: center;
+    background-size: 100%;
 }
 
 .itemcontainer {
@@ -28,14 +32,21 @@ body {
 }
 
 .item-left {
-    width: 30%;
+    width: 40%;
 }
 
 .item-right {
-    width: 70%;
+    width: 60%;
+    display: flex;
+    align-content: center;
 }
 
 .img {
     width: 470px;
     height: 360px;
+}
+
+.list-rezept {
+    padding-left: 17.7px;
+    font-size: large;
 }
