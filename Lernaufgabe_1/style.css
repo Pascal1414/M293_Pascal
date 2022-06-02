@@ -1,3 +1,7 @@
+* {
+    font-family: Helvetica;
+}
+
 .list-sauce {
     font-size: large;
 }
@@ -29,25 +33,33 @@ body {
 
 .itemcontainer {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .item-left {
-    width: 40%;
+    width: 400px;
 }
 
 .item-right {
-    width: 60%;
+    width: 500px;
     display: flex;
     align-content: center;
 }
 
 .img {
-    width: 80%;
-    height: 90%;
+    width: 480px;
+    height: 360px;
 }
 
 .list-rezept {
     padding-left: 17.7px;
+    font-size: large;
+}
+
+.list-rezept li {
+    margin-bottom: 10px;
+}
+
+.more a {
     font-size: large;
 }
