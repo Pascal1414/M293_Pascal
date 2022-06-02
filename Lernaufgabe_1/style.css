@@ -1,5 +1,3 @@
-body {}
-
 .list-sauce {}
 
 .list-sauce-row {
@@ -8,4 +6,36 @@ body {}
 
 .list-sauce-cell {
     width: 90px;
+}
+
+.content {
+    border-radius: 10px;
+    width: 70%;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body {
+    background-image: url(Basilikum_bearb.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.itemcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-left {
+    width: 30%;
+}
+
+.item-right {
+    width: 70%;
+}
+
+.img {
+    width: 470px;
+    height: 360px;
 }
