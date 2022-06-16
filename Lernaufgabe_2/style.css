@@ -1,0 +1,130 @@
+body {
+    background-color: #24282f;
+}
+
+.title {
+    color: white;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+
+.subtitle {
+    font-size: x-large;
+    color: white;
+    margin-left: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-item {
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.item-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 300px;
+    height: 450px;
+}
+
+.item-name {
+    color: white;
+    margin-left: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.item-releasdate {
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.item-link {
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+.item-link:hover {
+    color: lightblue;
+}
+
+.grid-container {
+    max-width: max-content;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.grid-container-item-1 {
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-container-item-2 {
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.grid-container-item-3 {
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.grid-container-item-4 {
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.grid-container-item-5 {
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid-container-item-6 {
+    width: 300px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    grid-column: 3;
+    grid-row: 2;
+}
