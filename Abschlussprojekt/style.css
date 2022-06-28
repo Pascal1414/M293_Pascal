@@ -24,7 +24,7 @@ p {
 
 nav {}
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .flex-container {
         width: 100%;
         text-align: center;
@@ -52,7 +52,37 @@ nav {}
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
+    .flex-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    .flex-item {
+        margin: 0 auto;
+        border: 3px solid red;
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+    .price {
+        margin-top: 0;
+        margin-bottom: 4px;
+        color: red;
+        font-size: xx-large;
+    }
+    .image-text {
+        font-size: x-large;
+    }
+    .image-text-container {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 990px) {
     .flex-container {
         display: flex;
         flex-wrap: wrap;
