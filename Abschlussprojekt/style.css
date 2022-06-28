@@ -52,13 +52,13 @@ nav {}
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 700px) and (max-width: 990px) {
     .flex-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 10px;
-        grid-row-gap: 10px;
+        grid-row-gap: 5px;
     }
     .flex-item {
         margin: 0 auto;
