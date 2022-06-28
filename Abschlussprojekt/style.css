@@ -57,7 +57,7 @@ p {
         padding: 10px;
         text-align: start;
     }
-    nav {
+    /* nav {
         background-color: black;
         height: 50px;
         display: flex;
@@ -81,10 +81,9 @@ p {
     }
     .nav-item {
         height: 100%;
-        text-align: center;
         text-decoration: none;
         color: #dcdcdc;
-    }
+    }*/
 }
 
 @media (min-width: 700px) and (max-width: 990px) {
