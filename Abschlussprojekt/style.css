@@ -12,6 +12,11 @@
 
 body {
     background-color: #24282f;
+    margin: 0;
+}
+
+main {
+    margin: 18px;
 }
 
 h1 {
@@ -21,8 +26,6 @@ h1 {
 p {
     color: #dcdcdc;
 }
-
-nav {}
 
 @media (max-width: 700px) {
     .flex-container {
@@ -43,7 +46,7 @@ nav {}
         margin-bottom: 4px;
         color: red;
         font-weight: bold;
-        font-size: xx-large;
+        font-size: x-large;
     }
     .image-text {
         font-size: x-large;
@@ -52,6 +55,35 @@ nav {}
     }
     .image-text-container {
         padding: 10px;
+        text-align: start;
+    }
+    nav {
+        background-color: black;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-subcontainer-home {
+        width: 120px;
+        background-color: red;
+        text-align: start;
+    }
+    .nav-subcontainer {
+        width: 70px;
+    }
+    .nav-subcontainer:hover {
+        background-color: #3d3d3d;
+    }
+    .nav-item-home {
+        text-decoration: none;
+        color: #dcdcdc;
+        font-size: larger;
+    }
+    .nav-item {
+        height: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: #dcdcdc;
     }
 }
 
