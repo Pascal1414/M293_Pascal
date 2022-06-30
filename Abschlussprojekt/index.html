@@ -45,20 +45,14 @@
                 <div>
                     <h2 class="subtitle">Categories</h2>
                     <div class="cathegory-container">
-                        <button id="btn_1" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 1</button>
-                        <button id="btn_2" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 2</button>
-                        <button id="btn_3" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 3</button>
-                        <button id="btn_4" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 4</button>
-                        <button id="btn_5" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 5</button>
-                        <button id="btn_6" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 6</button>
-                        <button id="btn_7" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 7</button>
-                        <button id="btn_8" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 8</button>
-                        <button id="btn_9" class="cathegory-button" onclick="cathegoryClick(this.id)">Cathegory 9</button>
+                        <button id="btn_1" class="cathegory-button" onclick="cathegoryClickGraficscard(this.id)">Graficscard</button>
+                        <button id="btn_2" class="cathegory-button" onclick="cathegoryClickMainboard(this.id)">Mainboard</button>
+                        <button id="btn_3" class="cathegory-button" onclick="cathegoryClickPowerSupply(this.id)">Power Supply</button>
                     </div>
                     <hr class="hr">
                 </div>
                 <div class="flex-container">
-                    <div class="flex-item">
+                    <div class="flex-item graficscard">
                         <a class="item-link" href="/M293_Pascal/Abschlussprojekt/items/RTX3080.html">
                             <img class="image" src="images/3080.png">
                             <div class="image-text-container">
@@ -67,7 +61,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="flex-item no-border-tablet">
+                    <div class="flex-item no-border-tablet graficscard">
                         <a class="item-link" href="/M293_Pascal/Abschlussprojekt/items/RTX3090TI.html">
                             <img class="image" src="images/3090_Ti.png">
                             <div class="image-text-container">
@@ -77,42 +71,72 @@
                         </a>
                     </div>
 
-                    <div class="flex-item no-border-monitor">
+                    <div class="flex-item no-border-monitor graficscard">
                         <a class="item-link" href="/Abschlussprojekt/">
-                            <img class="image" src="images/3080.png">
+                            <img class="image" src="images/3060.png">
                             <div class="image-text-container">
-                                <p class="price">250 CHF</p>
+                                <p class="price">458 CHF</p>
+                                <p class="image-text">Gigabyte GeForce RTX 3060 Vision OC 12G LHR</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="flex-item no-border-tablet mainboard">
+                        <a class="item-link" href="/Abschlussprojekt/">
+                            <img class="image" src="images/ROG Maximus Z690 Formula.png">
+                            <div class="image-text-container">
+                                <p class="price">339 CHF</p>
+                                <p class="image-text">ASUS ROG MAXIMUS Z690 FORMULA</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="flex-item mainboard">
+                        <a class="item-link" href="/Abschlussprojekt/">
+                            <img class="image" src="images/ASUS ROG CROSSHAIR VIII DARK HERO.png">
+                            <div class="image-text-container">
+                                <p class="price">427 CHF</p>
                                 <p class="image-text">ASUS GeForce TUF RTX 3080 GAMING</p>
                             </div>
                         </a>
                     </div>
 
-                    <div class="flex-item no-border-tablet">
+                    <div class="flex-item no-border-tablet no-border-monitor mainboard">
                         <a class="item-link" href="/Abschlussprojekt/">
-                            <img class="image" src="images/3080.png">
+                            <img class="image" src="images/SuperTeuer.png">
                             <div class="image-text-container">
-                                <p class="price">250 CHF</p>
-                                <p class="image-text">ASUS GeForce TUF RTX 3080 GAMING</p>
+                                <p class="price">2049 CHF</p>
+                                <p class="image-text">Gigabyte Z690 AORUS XTREME WB </p>
                             </div>
                         </a>
                     </div>
 
-                    <div class="flex-item">
+                    <div class="flex-item powersupply">
                         <a class="item-link" href="/Abschlussprojekt/">
-                            <img class="image" src="images/3080.png">
+                            <img class="image" src="images/Netzteil1.png">
                             <div class="image-text-container">
-                                <p class="price">250 CHF</p>
-                                <p class="image-text">ASUS GeForce TUF RTX 3080 GAMING</p>
+                                <p class="price">343 CHF</p>
+                                <p class="image-text">Gigabyte AORUS P1200W 80+ Platinum Modular</p>
                             </div>
                         </a>
                     </div>
 
-                    <div class="flex-item no-border-tablet no-border-monitor">
+                    <div class="flex-item no-border-tablet powersupply">
                         <a class="item-link" href="/Abschlussprojekt/">
-                            <img class="image" src="images/3080.png">
+                            <img class="image" src="images/Netzteil2.png">
                             <div class="image-text-container">
-                                <p class="price">250 CHF</p>
-                                <p class="image-text">ASUS GeForce TUF RTX 3080 GAMING</p>
+                                <p class="price">343 CHF</p>
+                                <p class="image-text">Thermaltake Toughpower iRGB Plus Platinum</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="flex-item no-border-tablet no-border-monitor powersupply">
+                        <a class="item-link" href="/Abschlussprojekt/">
+                            <img class="image" src="images/netzteil3.png">
+                            <div class="image-text-container">
+                                <p class="price">326 CHF</p>
+                                <p class="image-text">ASUS ROG Thor 1200P</p>
                             </div>
                         </a>
                     </div>
@@ -127,14 +151,100 @@
 
     </footer>
     <script>
-        function cathegoryClick(clickID) {
+        function cathegoryClickGraficscard(clickID) {
             if (document.getElementById(clickID).style.backgroundColor == "red") {
                 document.getElementById(clickID).style.backgroundColor = "#24282f";
+
+                setAllVisible();
+
             } else {
+
+                document.querySelectorAll(".graficscard").forEach(element => {
+                    element.style.display = "block";
+                });
+
+                document.getElementById("btn_2").style.background = "#24282f";
+                document.querySelectorAll(".mainboard").forEach(element => {
+                    element.style.display = "none";
+                });
+
+                document.getElementById("btn_3").style.background = "#24282f";
+                document.querySelectorAll(".powersupply").forEach(element => {
+                    element.style.display = "none";
+                });
 
                 document.getElementById(clickID).style.backgroundColor = "Red";
 
             }
+        }
+
+        function cathegoryClickMainboard(clickID) {
+            if (document.getElementById(clickID).style.backgroundColor == "red") {
+                document.getElementById(clickID).style.backgroundColor = "#24282f";
+
+                setAllVisible();
+
+            } else {
+
+
+                document.querySelectorAll(".mainboard").forEach(element => {
+                    element.style.display = "block";
+                });
+
+                document.getElementById(clickID).style.backgroundColor = "Red";
+
+                document.getElementById("btn_1").style.background = "#24282f";
+                document.querySelectorAll(".graficscard").forEach(element => {
+                    element.style.display = "none";
+                });
+
+                document.getElementById("btn_3").style.background = "#24282f";
+                document.querySelectorAll(".powersupply").forEach(element => {
+                    element.style.display = "none";
+                });
+
+            }
+        }
+
+        function cathegoryClickPowerSupply(clickID) {
+            if (document.getElementById(clickID).style.backgroundColor == "red") {
+                document.getElementById(clickID).style.backgroundColor = "#24282f";
+
+                setAllVisible();
+
+            } else {
+
+                document.getElementById(clickID).style.backgroundColor = "Red";
+
+                document.querySelectorAll(".powersupply").forEach(element => {
+                    element.style.display = "block";
+                });
+
+                document.getElementById("btn_1").style.background = "#24282f";
+                document.querySelectorAll(".graficscard").forEach(element => {
+                    element.style.display = "none";
+                });
+
+                document.getElementById("btn_2").style.background = "#24282f";
+                document.querySelectorAll(".mainboard").forEach(element => {
+                    element.style.display = "none";
+                });
+
+            }
+        }
+
+        function setAllVisible() {
+            document.querySelectorAll(".graficscard").forEach(element => {
+                element.style.display = "block";
+            });
+
+            document.querySelectorAll(".mainboard").forEach(element => {
+                element.style.display = "block";
+            });
+
+            document.querySelectorAll(".powersupply").forEach(element => {
+                element.style.display = "block";
+            });
         }
     </script>
 </body>
