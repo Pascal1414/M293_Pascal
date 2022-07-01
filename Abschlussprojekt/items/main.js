@@ -5,6 +5,6 @@ function submitForm() {
         form.elements['street'].value + " " + form.elements['number'].value + "\n" +
         form.elements['zip-code'].value + " " + form.elements['city'].value);
 
-    window.location.replace("/Abschlussprojekt");
+    window.location.replace("/M293_Pascal/Abschlussprojekt");
     return false;
 }
