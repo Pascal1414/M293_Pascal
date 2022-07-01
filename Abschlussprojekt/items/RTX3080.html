@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>RTX 2080</title>
 </head>
 
@@ -14,6 +15,7 @@
 
     </header>
     <main>
+
         <div class="sidebar">
 
         </div>
@@ -54,9 +56,30 @@
                 </div>
             </div>
 
+            <h2 class="subtitle">Order</h2>
+
+            <form id="order" class="form" onsubmit="return submitForm()">
+                <div class="container-form">
+                    <input id="firstname" class="form-input firstname" placeholder="Firstname">
+                    <input id="lastname" class="form-input lastname" placeholder="Lastname">
+                </div>
+                <div class="container-form">
+                    <input id="street" class="form-input street" placeholder="Street">
+                    <input id="number" class="form-input number" placeholder="Number">
+                </div>
+                <div class="container-form">
+
+                    <input id="zip-code" class="form-input zip-code" placeholder="Zip Code">
+                    <input id="city" class="form-input city" placeholder="City">
+                </div>
+                <button class="form-button">Submit</button>
+            </form>
+            <br>
+            <br>
+            <bR>
         </div>
-        <div class="specification">
-        </div>
+
+
         <div class="sidebar">
 
         </div>
